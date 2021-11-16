@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
+// import { AngularFireModule } from  '@angular/fire';
+// import { AngularFirestoreModule } from  '@angular/fire/firestore';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AgmCoreModule } from '@agm/core';
@@ -29,8 +30,8 @@ import { environment } from 'src/environments/environment';
     FormsModule,
     HttpClientModule,
     // AngularFireAuthModule,
-    // AngularFireModule.initializeApp(environment.firebaseConfig),
-    // AngularFirestoreModule,
+   //  AngularFireModule.initializeApp(environment.firebaseConfig),
+ //    AngularFirestoreModule,
     // AngularFireDatabaseModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAWKO1-r6f-pr-DWvw8ydfPSnMuwsUpwgo'    
