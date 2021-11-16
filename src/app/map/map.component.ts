@@ -76,7 +76,7 @@ export class MapComponent implements OnInit {
     this.geoCoder.geocode(
       { location: { lat: latitude, lng: longitude } },
       (results: { formatted_address: string }[], status: string) => {
-        console.log(results);
+//console.log(results);
         console.log(status);
         if (status === 'OK') {
           if (results[0]) {

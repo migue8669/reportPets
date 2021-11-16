@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "maps-e7e33": {
+      "hosting": {
+        "pets": [
+          "maps-e7e33"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "maps-e7e33"
+  }
+}

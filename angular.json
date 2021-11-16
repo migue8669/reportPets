@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "pets:build:production",
+            "firebaseProject": "maps-e7e33",
+            "firebaseHostingSite": "maps-e7e33"
+          }
         }
       }
     }

@@ -11,9 +11,9 @@ import { CodeQRComponent } from './code-qr/code-qr.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 // import { AngularFireAuthModule } from '@angular/fire/compat/auth';
-// import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
-// import { AngularFireStorage } from '@angular/fire/compat/storage';
-// import { AngularFireModule } from '@angular/fire/compat';
+ //import { AngularFirestoreModule } from '@angular/fire/firestore';
+ //import { AngularFireStorage } from '@angular/fire/compat/storage';
+ import { AngularFireModule } from '@angular/fire/compat';
 // import { AngularFireDatabaseModule } from '@angular/fire/compat/database';
 import { environment } from 'src/environments/environment';
 
@@ -30,8 +30,8 @@ import { environment } from 'src/environments/environment';
     FormsModule,
     HttpClientModule,
     // AngularFireAuthModule,
-   //  AngularFireModule.initializeApp(environment.firebaseConfig),
- //    AngularFirestoreModule,
+    AngularFireModule.initializeApp(environment.firebaseConfig),
+   // AngularFirestoreModule,
     // AngularFireDatabaseModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAWKO1-r6f-pr-DWvw8ydfPSnMuwsUpwgo'    
